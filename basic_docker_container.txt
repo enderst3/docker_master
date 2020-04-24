@@ -1,8 +1,16 @@
+Docker comand line samples
+
 docker run --name mongo -d mongo
-
 docker container run -d -p 80:80 --name container_name nginx
-
 docker container run -d -p 8080:80 --name any_name httpd
-
 docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
 Pass - GENERATED ROOT PASSWORD: shuWeifoodaith4riexieN3eezato6xe
+
+=========================================================================
+
+What is going on inside containers
+
+docker container top - process list in one container
+docker container inspect - details of one container config
+docker container stats - performanc for all containers
+
