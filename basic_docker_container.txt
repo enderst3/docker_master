@@ -19,4 +19,14 @@ docker container stats - performanc for all containers
 Getting a shell inside a container
 
 docker container run -it -start new container interactively
-docker container exec -it -run addictional command in existing container
+docker container exec -it -run additional commands in existing container
+
+docker container run -it --name proxy nginx bash - will give you command line
+docker container run -it --name ubuntu ubuntu - installs ubuntu inside container
+    - can download software inside container
+
+docker container exec -it exec it mysql bash - will run additional process inside running container.  
+                                               In this case its bash.
+
+==========================================================================
+
