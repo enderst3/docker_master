@@ -30,3 +30,7 @@ docker container exec -it exec it mysql bash - will run additional process insid
 
 ==========================================================================
 
+Docker Networks 
+    - Private and public Comms for containers
+        - docker container -p - opens port
+        - docker container port - checks what ports are availble to selected container
