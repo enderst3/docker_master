@@ -34,3 +34,6 @@ Docker Networks
     - Private and public Comms for containers
         - docker container -p - opens port
         - docker container port - checks what ports are availble to selected container
+==========================================================================
+
+**** need to replace nginx to nginx:alpine
